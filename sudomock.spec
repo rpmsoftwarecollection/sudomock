@@ -8,7 +8,11 @@ BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildRequires: sudo, coreutils
 Requires: sudo, coreutils
 
-%prep
+
+%description
+sudo no password for mock
+
+%install
 mkdir -p %{buildroot}/tmp/
 touch %{buildroot}/tmp/sudomockdeleteme
 
@@ -16,5 +20,6 @@ touch %{buildroot}/tmp/sudomockdeleteme
 rm -f /tmp/sudomockdeleteme
 echo "mockbuild ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 echo "ALL            ALL = (ALL) NOPASSWD: ALL" >> /etc/sudoers
-%file
+
+%files
 /tmp/sudomockdeleteme

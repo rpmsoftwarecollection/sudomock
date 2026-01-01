@@ -1,0 +1,56 @@
+[php56buildbaseos]
+name=php56 AlmaLinux 8 - BaseOS
+baseurl=https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/
+enabled=0
+gpgcheck=0
+
+[php56appstream]
+name=php56 AlmaLinux 8 - AppStream
+baseurl=https://repo.almalinux.org/almalinux/8/AppStream/x86_64/os/
+enabled=0
+gpgcheck=0
+
+[php56extras]
+name=php56 AlmaLinux $releasever - Extras
+baseurl=https://repo.almalinux.org/almalinux/8/extras/x86_64/os/
+enabled=0
+gpgcheck=0
+
+[php56plus]
+name=php56 AlmaLinux 8 - Plus
+baseurl=https://repo.almalinux.org/almalinux/8/plus/x86_64/os/
+enabled=0
+gpgcheck=0
+
+[php56powertools]
+name=php56 AlmaLinux 8 - PowerTools
+baseurl=https://repo.almalinux.org/almalinux/8/PowerTools/x86_64/os/
+enabled=0
+gpgcheck=0
+
+[php56epel]
+name=php56 Extra Packages for Enterprise Linux 8
+baseurl=https://archives.fedoraproject.org/pub/archive/epel/8.9/Everything/x86_64/
+enabled=0
+gpgcheck=0
+
+[php56remi]
+name=php56 Remi's RPM repository for Enterprise Linux
+baseurl=https://rpms.remirepo.net/enterprise/8/remi/x86_64/
+enabled=0
+gpgcheck=0
+repo_gpgcheck=0
+
+[php56remi-modular]
+name=php56 Remi's Modular repository for Enterprise Linux
+baseurl=https://rpms.remirepo.net/enterprise/8/modular/x86_64/
+enabled=0
+gpgcheck=0
+repo_gpgcheck=0
+
+[php56remi-safe]
+name=php56 Safe Remi's RPM repository for Enterprise Linux
+baseurl=http://rpms.remirepo.net/enterprise/8/safe/x86_64/
+enabled=0
+gpgcheck=0
+repo_gpgcheck=0
